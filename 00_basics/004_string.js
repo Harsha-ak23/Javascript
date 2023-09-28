@@ -1,0 +1,11 @@
+// const name1 = "Ashish";
+// const name2 = "Harsha";
+// console.log(name1 + " and " + name2 + " are Brothers");
+// console.log(`Hello my name is ${name1} and my second name is ${name2}`);
+const gameName = "PubgFight";
+// console.log(gameName.__proto__);
+// console.log(gameName.length);
+// console.log(gameName.toUpperCase());
+// console.log(gameName.indexOf('g'));
+// console.log(gameName.charAt(4));
+console.log(gameName.indexOf('G'));
