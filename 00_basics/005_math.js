@@ -15,4 +15,6 @@
 // console.log(Math.round(bill));
 // console.log(Math.ceil(bill));
 // console.log(Math.floor(bill));
-console.log(Math.random()*10);
+console.log(Math.floor(Math.random()*6)+1);
+console.log(Math.floor(Math.random()*6)+1);
+console.log(Math.floor(Math.random()*6)+1);
