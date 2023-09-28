@@ -1,0 +1,18 @@
+// const score = 300;
+// console.log(score);
+// const balance = new Number(400);
+// console.log(balance);
+// console.log(balance.toString());
+// console.log(balance.toString().length);
+// console.log(balance.toFixed(2));
+// const amount = 1221.235;
+// console.log(amount.toPrecision(2));
+// const price = 2300000000000;
+// console.log(price.toLocaleString());
+// console.log(price.toLocaleString('en-IN'));
+// const bill = 345.64;
+// console.log(Math.abs(bill));
+// console.log(Math.round(bill));
+// console.log(Math.ceil(bill));
+// console.log(Math.floor(bill));
+console.log(Math.random()*10);
