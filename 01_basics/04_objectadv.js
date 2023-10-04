@@ -25,5 +25,17 @@ tinderUser.isloggedIn = false;
 // console.log(Object.keys(tinderUser))
 // console.log(Object.values(tinderUser))
 // console.log(Object.entries(tinderUser))
-console.log(tinderUser.hasOwnProperty('isloggedIn'));
-console.log(tinderUser.hasOwnProperty('islogged'));
+// console.log(tinderUser.hasOwnProperty('isloggedIn'));
+// console.log(tinderUser.hasOwnProperty('islogged'));
+
+const course = {
+    coursename: "js in hindi",
+    price:"999",
+    courseInstructor:"Ashish"
+}
+
+// const {courseInstructor} = course
+// console.log(courseInstructor);
+// console.log(course);
+const {courseInstructor:instructor} = course
+console.log(instructor);
