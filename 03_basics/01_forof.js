@@ -26,5 +26,14 @@ map.set('Fr', "France");
 // }
 
 for(const [key, value] of map){
-    console.log(key, ':-', value);
+    // console.log(key, ':-', value);
 }
+
+const myobj = {
+    game1: 'NFS',
+    game2: 'Spiderman'
+}
+
+// for(const [key,value] of myobj){
+//     console.log(key,':-', value);
+// }
