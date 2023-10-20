@@ -34,6 +34,6 @@ const myobj = {
     game2: 'Spiderman'
 }
 
-// for(const [key,value] of myobj){
-//     console.log(key,':-', value);
-// }
+for(const [key,value] of myobj){
+    console.log(key,':-', value);
+}
