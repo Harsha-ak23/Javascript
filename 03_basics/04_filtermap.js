@@ -46,9 +46,16 @@ const books = [
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
 
-  const bktitle = books.title;
-  console.log(bktitle);
+  const book1 = books.filter((bk) => bk.publish>2000);
+  // console.log(book1);
 
-  const myBook = books.filter((bk) => bk.title)
+
+  books.filter((bk) =>{
+    // console.log(bk.title)
+  });
+let userbook = books.filter((bk) => bk.genre === 'History');
+// console.log(userbook);
+
+userbook = books.filter((bk) => bk.edition > 2000);
+console.log(userbook);
   
-//   console.log(myBook);
