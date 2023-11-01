@@ -35,5 +35,20 @@
     newli.textContent = "Mojo"
     secondLang.replaceWith(newli);
 
+    //edit
+    const fristLng = document.querySelector("li");
+    const newlist2 = document.createElement('li');
+    newlist2.textContent = "TypeScript"
+    fristLng.replaceWith(newlist2);
+
+    // edit 
+
+    const thirdLang = document.querySelector('li:nth-child(3)');
+    thirdLang.outerHTML = '<li>Swift</li>';
+
+
+    //remove
+    const lastLang = document.querySelector('li:last-child');
+    lastLang.remove();
 </script>
 </html>
